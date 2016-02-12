@@ -44,6 +44,11 @@ function normalizePath(path) {
             continue;
         }
 
+        if (part === '.') {
+            part = parts.pop();
+            //BUG: если дальше будут /../ - алгоритм не сработает, поскольку обработка данного случая выше. 
+        }
+
         resultPath = resultPath 
                     ? part + '/' + resultPath
                     : part;
