@@ -11,7 +11,7 @@ describe('normalizePath.', function () {
         expect(normalizePath('/a/b/../c/.')).toBe('/a/c');
     });
 
-    xit('/a/b/.../c', function () {
-        expect(normalizePath('/a/b/.../c')).toThrowError('error');
+    it('/a/b/.../c', function () {
+        expect(normalizePath.bind(null, '/a/b/.../c')).toThrowError('error');
     });
 });
