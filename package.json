@@ -1,0 +1,16 @@
+{
+  "name": "InterestingInterviewQuestions",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexanderStalev/InterestingInterviewQuestions.git"
+  },
+  "homepage": "https://github.com/AlexanderStalev/InterestingInterviewQuestions",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7"
+  }
+}
