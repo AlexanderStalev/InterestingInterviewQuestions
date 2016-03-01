@@ -67,7 +67,7 @@ describe('seeFight.', function () {
         expect(count).toBe(2);
     });
 
-    it('2 корабля на поле 2x2.', function () {
+    it('2 корабля на поле 2x2 (альтернативный вариант).', function () {
         // Arrange.
         var battlefield = [
             0, 1,
